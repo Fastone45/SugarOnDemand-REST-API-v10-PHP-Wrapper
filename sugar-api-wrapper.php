@@ -38,12 +38,12 @@ function getToken() {
 		global $base_url, $grant_type, $client_id, $client_secret, $sugar_username, $sugar_password;
 		
 		$data = array(
-        "grant_type"=>$grant_type,
-        "client_id"=>$client_id,
-        "client_secret"=>$client_secret,
-        "username"=>$sugar_username,
-        "password"=>$sugar_password
-    	);
+        	"grant_type"=>$grant_type,
+        	"client_id"=>$client_id,
+        	"client_secret"=>$client_secret,
+        	"username"=>$sugar_username,
+        	"password"=>$sugar_password
+    		);
 
 		$payload = json_encode($data);
 
