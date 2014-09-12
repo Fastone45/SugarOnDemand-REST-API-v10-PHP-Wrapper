@@ -15,7 +15,7 @@ SugarCRM SugarOnDemand 7.x REST API v10 (OAuth2) PHP Wrapper
 	with use of SugarCRM v10 API REST (http://support.sugarcrm.com/02_Documentation/04_Sugar_Developer/Sugar_Developer_Guide_7.2/70_API/Web_Services/10_REST/) using Oauth (http://support.sugarcrm.com/02_Documentation/04_Sugar_Developer/Sugar_Developer_Guide_6.7/02_Application_Framework/Authentication/Oauth/)
 	to register new leads in SugarCRM.
 	
-	Insturctions: Send a Form action to sugar-api-wrapper with $_POST data containing the data you want to pass to Sugar. 
+	Instructions: Send a Form action to sugar-api-wrapper with $_POST data containing the data you want to pass to Sugar. 
 
 	Additional references:
 	http://developer.sugarcrm.com/2013/08/09/creating-an-api-only-user-in-sugarcrm/
