@@ -42,7 +42,7 @@ $sugar_username = '******';
 $sugar_password = '******';
 $send_emails = 'YES';
 $email_to = '******@******.***';
-$redirect_URL = $_POST[redirect_url];
+$redirect_URL = $_POST['redirect_url'];
 
 function call($submit_url, $type, $access_token, $payload) {
 
