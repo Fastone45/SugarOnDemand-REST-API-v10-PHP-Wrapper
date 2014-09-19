@@ -19,7 +19,11 @@
 	to update the lead with additional field information. If emails are turned on and there is an error, you will
 	be notified of errors from the API via email.
 	
+<<<<<<< HEAD
 	Insturctions: Update with your credintials below. Send a form action to sugar-api-wrapper with $_POST data containing the data you want to pass to Sugar. 
+=======
+	Instructions: Send a Form action to sugar-api-wrapper with $_POST data containing the data you want to pass to Sugar. 
+>>>>>>> FETCH_HEAD
 
 	References:
 	http://support.sugarcrm.com/02_Documentation/04_Sugar_Developer/Sugar_Developer_Guide_7.2/70_API/Web_Services/10_REST/

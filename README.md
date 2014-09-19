@@ -5,21 +5,19 @@ Simple PHP wrapper for registering a lead in SugarCRM SugarOnDemand 7.x using th
 
 SugarCRM SugarOnDemand 7.x REST API v10 (OAuth2) PHP Wrapper
 
-	Created: 09/10/2014
+Created: 09/10/2014
 	
-	EndPoints Supported:
-	/oauth2/token
-	/Leads/register
+EndPoints Supported:
+/oauth2/token
+/Leads/register
 	
-	Purpose: Replace use of Web-To-Lead Forms interface (http://support.sugarcrm.com/02_Documentation/01_Sugar_Editions/04_Sugar_Professional/Sugar_Professional_6.5/Application_Guide/32_Web_To_Lead_Forms/)
-	with use of SugarCRM v10 API REST (http://support.sugarcrm.com/02_Documentation/04_Sugar_Developer/Sugar_Developer_Guide_7.2/70_API/Web_Services/10_REST/) using Oauth (http://support.sugarcrm.com/02_Documentation/04_Sugar_Developer/Sugar_Developer_Guide_6.7/02_Application_Framework/Authentication/Oauth/)
-	to register new leads in SugarCRM.
+Purpose: Replace use of Web-To-Lead Forms interface (http://support.sugarcrm.com/02_Documentation/01_Sugar_Editions/04_Sugar_Professional/Sugar_Professional_6.5/Application_Guide/32_Web_To_Lead_Forms/) with use of SugarCRM v10 API REST (http://support.sugarcrm.com/02_Documentation/04_Sugar_Developer/Sugar_Developer_Guide_7.2/70_API/Web_Services/10_REST/) using Oauth (http://support.sugarcrm.com/02_Documentation/04_Sugar_Developer/Sugar_Developer_Guide_6.7/02_Application_Framework/Authentication/Oauth/) to register new leads in SugarCRM.
 	
-	Insturctions: Send a Form action to sugar-api-wrapper with $_POST data containing the data you want to pass to Sugar. 
+Instructions: Send a Form action to sugar-api-wrapper with $_POST data containing the data you want to pass to Sugar. 
 
-	Additional references:
-	http://developer.sugarcrm.com/2013/08/09/creating-an-api-only-user-in-sugarcrm/
-	http://developer.sugarcrm.com/2014/02/28/sugarcrm-cookbook1/
-	https://<yourserver>.sugarondemand.com/rest/v10/help
+Additional references:
+http://developer.sugarcrm.com/2013/08/09/creating-an-api-only-user-in-sugarcrm/
+http://developer.sugarcrm.com/2014/02/28/sugarcrm-cookbook1/
+https://<yourserver>.sugarondemand.com/rest/v10/help
 	
-	Special Notes: Use https vs http, case sensitive endpoint names
+Special Notes: Use https vs http, case sensitive endpoint names
