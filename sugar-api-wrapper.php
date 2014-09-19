@@ -106,12 +106,12 @@ function getToken() {
 		global $base_url, $grant_type, $client_id, $client_secret, $sugar_username, $sugar_password;
 		
 		$data = array(
-        'grant_type'=>$grant_type,
-        'client_id'=>$client_id,
-        'client_secret'=>$client_secret,
-        'username'=>$sugar_username,
-        'password'=>$sugar_password
-    	);
+        	'grant_type'=>$grant_type,
+        	'client_id'=>$client_id,
+        	'client_secret'=>$client_secret,
+        	'username'=>$sugar_username,
+        	'password'=>$sugar_password
+    		);
 
 		$payload = json_encode($data);
 
@@ -138,6 +138,7 @@ function registerLead($access_token) {
 		$data = call($submit_url,'POST',$access_token,$payload);
 		
 		if ($send_emails == 'YES') {
+			
 			$leadname = $_POST['first_name'].' '.$_POST['last_name'];
 			$leadurl = $base_url."/index.php?module=Leads&action=DetailView&record=$data->id";
 			$subject = "SugarCRM Lead - $leadname";
@@ -155,8 +156,8 @@ function updateLead($access_token, $id) {
 		global $base_url;
 
 		$data = array(
-        'generate_c'=>$_POST['generate_c']
-    	);
+		'generate_c'=>$_POST['generate_c']
+    		);
 
 		$payload = json_encode($data);
 
